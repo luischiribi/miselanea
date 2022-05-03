@@ -10,8 +10,9 @@ namespace Miselania
     {
         static void Main(string[] args)
         {
-            double numero1;
-            double numero2;
+            double num1;
+            double num2;
+            double num3;
             double opcion;
 
             Console.WriteLine("Bienvenido");
@@ -42,9 +43,7 @@ namespace Miselania
                     Console.WriteLine("\n9 - salir");
                     Console.WriteLine("-----------------");
 
-                    double num1;
-                    double num2;
-                    double num3;
+                   
                     double opcion_1;
 
                     opcion_1 = Convert.ToDouble(Console.ReadLine());
@@ -165,9 +164,7 @@ namespace Miselania
                     Console.WriteLine("\n7 - Escribir un algoritmo que determine si un año es bisiesto o no.");
                     Console.WriteLine("-----------------");
 
-                    double num_1;
-                    double num_2;
-                    double num_3;
+                   
                     double opcion_2;
                     opcion_2 = Convert.ToDouble(Console.ReadLine());
 
@@ -176,32 +173,32 @@ namespace Miselania
                         case 1:
                             Console.WriteLine("-----------------");
                             Console.WriteLine("Ingrese un numero");
-                            num_1= Convert.ToDouble(Console.ReadLine());
+                            num1= Convert.ToDouble(Console.ReadLine());
                             Console.WriteLine("-----------------");
-                            if (num_1 > 0)
+                            if (num1 > 0)
                             {
-                                Console.WriteLine("El numero es " + num_1 + " positivo");
+                                Console.WriteLine("El numero es " + num1 + " positivo");
                             }
                             else
                             {
-                                Console.WriteLine("El numero es " + num_1 + " negativo");
+                                Console.WriteLine("El numero es " + num1 + " negativo");
                             }
                             break;
 
                         case 2:
                             Console.WriteLine("-----------------");
                             Console.WriteLine("Ingrese el primer numero");
-                            num_1 = Convert.ToDouble(Console.ReadLine());
+                            num1 = Convert.ToDouble(Console.ReadLine());
                             Console.WriteLine("Ingrese el segundo numero");
-                            num_2 = Convert.ToDouble(Console.ReadLine());
+                            num2 = Convert.ToDouble(Console.ReadLine());
                             Console.WriteLine("-----------------");
-                            if (num_1 > num_2)
+                            if (num1 > num2)
                             {
-                                Console.WriteLine("El numero  " + num_1 + "  es mayor que " + num_2);
+                                Console.WriteLine("El numero  " + num1 + "  es mayor que " + num2);
                             }
                             else 
                             {
-                                Console.WriteLine("El numero  " + num_1 + " es  menor que " + num_2);
+                                Console.WriteLine("El numero  " + num1 + " es  menor que " + num2);
                                 
                             }
                             break;
@@ -209,36 +206,36 @@ namespace Miselania
                         case 3:
                             Console.WriteLine("-----------------");
                             Console.WriteLine("Ingrese el primer numero");
-                            num_1 = Convert.ToDouble(Console.ReadLine());
+                            num1 = Convert.ToDouble(Console.ReadLine());
                             Console.WriteLine("Ingrese el segundo numero");
-                            num_2 = Convert.ToDouble(Console.ReadLine());
+                            num2 = Convert.ToDouble(Console.ReadLine());
                             Console.WriteLine("Ingrese el tercer numero");
-                            num_3 = Convert.ToDouble(Console.ReadLine());
+                            num3 = Convert.ToDouble(Console.ReadLine());
                             Console.WriteLine("-----------------");
 
-                            if (num_1 > num_2)                            
+                            if (num1 > num2)                            
                             {
-                                Console.WriteLine("El numero mayor es " + num_1 );
+                                Console.WriteLine("El numero mayor es " + num1 );
                             }
-                            else if (num_2 > num_3)
+                            else if (num2 > num3)
                             {
-                                Console.WriteLine("El numero mmayor es " + num_2);
-                            }
-                            else 
-                            {
-                                Console.WriteLine("El numero mayor es " + num_3);
-                            }
-                            if (num_1 < num_2)
-                            {
-                                Console.WriteLine("El numero menor es " + num_1);
-                            }
-                            else if (num_2 < num_3)
-                            {
-                                Console.WriteLine("El numero menor es " + num_2);
+                                Console.WriteLine("El numero mmayor es " + num2);
                             }
                             else 
                             {
-                                Console.WriteLine("El numero menor es " + num_3);
+                                Console.WriteLine("El numero mayor es " + num3);
+                            }
+                            if (num1 < num2)
+                            {
+                                Console.WriteLine("El numero menor es " + num1);
+                            }
+                            else if (num2 < num3)
+                            {
+                                Console.WriteLine("El numero menor es " + num2);
+                            }
+                            else 
+                            {
+                                Console.WriteLine("El numero menor es " + num3);
                             }
 
                             break;
@@ -246,20 +243,20 @@ namespace Miselania
                         case 4:
                             Console.WriteLine("-----------------");
                             Console.WriteLine("Ingrese el primer numero");
-                            num_1 = Convert.ToDouble(Console.ReadLine());
+                            num1 = Convert.ToDouble(Console.ReadLine());
                             Console.WriteLine("Ingrese el segundo numero");
-                            num_2 = Convert.ToDouble(Console.ReadLine());
+                            num2 = Convert.ToDouble(Console.ReadLine());
                             Console.WriteLine("-----------------");
 
-                            if (num_1 > num_2)
+                            if (num1 > num2)
                             {
                                 Console.WriteLine(" la suma es ");
-                                Console.WriteLine( num_1 + num_2);
+                                Console.WriteLine( num1 + num2);
                             }
                             else 
                             {
                                 Console.WriteLine(" la resta es ");
-                                Console.WriteLine( num_1 - num_2 );
+                                Console.WriteLine( num1 - num2 );
                             }
 
                             break;
@@ -267,24 +264,24 @@ namespace Miselania
                         case 5:
                             Console.WriteLine("-----------------");
                             Console.WriteLine("Ingrese el primer numero");
-                            num_1 = Convert.ToDouble(Console.ReadLine());
+                            num1 = Convert.ToDouble(Console.ReadLine());
                             Console.WriteLine("Ingrese el segundo numero");
-                            num_2 = Convert.ToDouble(Console.ReadLine());
+                            num2 = Convert.ToDouble(Console.ReadLine());
                             Console.WriteLine("-----------------");
 
 
-                            if (num_1 == 0)
+                            if (num1 == 0)
                             {
                                 Console.WriteLine("la division no es posible");
                             }
-                            else if (num_2 == 0)
+                            else if (num2 == 0)
                             {
                                 Console.WriteLine("la division no es posible");
                             }
                             else
                             {
                                 Console.WriteLine("el resultado es ");
-                                Console.WriteLine(num_1 / num_2);
+                                Console.WriteLine(num1 / num2);
                             }
                             
                             break;
@@ -292,25 +289,25 @@ namespace Miselania
                         case 6:
                             Console.WriteLine("-----------------");
                             Console.WriteLine("Ingrese el primer numero");
-                            num_1 = Convert.ToDouble(Console.ReadLine());
+                            num1 = Convert.ToDouble(Console.ReadLine());
                             Console.WriteLine("Ingrese el segundo numero");
-                            num_2 = Convert.ToDouble(Console.ReadLine());
+                            num2 = Convert.ToDouble(Console.ReadLine());
                             Console.WriteLine("-----------------");
 
-                            if (num_1 < 0)
+                            if (num1 < 0)
                             {
                                 Console.WriteLine(" la suma es ");
-                                Console.WriteLine(num_1 + num_2);
+                                Console.WriteLine(num1 + num2);
                             }
-                            else if (num_2 < 0)
+                            else if (num2 < 0)
                             {
                                 Console.WriteLine(" la suma es ");
-                                Console.WriteLine(num_1 + num_2);
+                                Console.WriteLine(num1 + num2);
                             }
                             else
                             {
                                 Console.WriteLine(" la multiplicacion es  ");
-                                Console.WriteLine(num_1 * num_2);
+                                Console.WriteLine(num1 * num2);
                             }
 
                             break;
@@ -319,16 +316,16 @@ namespace Miselania
                             Console.WriteLine("-----------------");
                             Console.WriteLine("Calcular bisiestos");                          
                             Console.WriteLine("Año a calcular");
-                            num_1 = Convert.ToDouble(Console.ReadLine());
+                            num1 = Convert.ToDouble(Console.ReadLine());
                             Console.WriteLine("-----------------");
 
-                            if(num_1 % 4 == 0 && (num_1) % 100 !=0 || (num_1) % 400 ==0)
+                            if(num1 % 4 == 0 && (num1) % 100 !=0 || (num1) % 400 ==0)
                             {
-                                Console.WriteLine("Es bisiesto {0}", num_1);
+                                Console.WriteLine("Es bisiesto {0}", num1);
                             }
                             else
                             {
-                                Console.WriteLine("no es bisiesto {0}", num_1);
+                                Console.WriteLine("no es bisiesto {0}", num1);
                             }
                             break;
                     }
@@ -347,9 +344,7 @@ namespace Miselania
                     Console.WriteLine("\n7 - Sumar todos los números que se digitan por teclado mientras no sea cero.");
                     Console.WriteLine("-----------------");
 
-                    double numero_1;
-                    double numero_2;
-                    double numero_3;
+                  
                     double opcion_3;
 
                     opcion_3 = Convert.ToDouble(Console.ReadLine());
@@ -358,12 +353,64 @@ namespace Miselania
                     {
                         case 1:
                             
-                                Console.WriteLine("-----------------");
-                                Console.WriteLine("Los multiplos de 3 del numero 1 al 100 son");
-                            {
+                            Console.WriteLine("-----------------");
+                            Console.WriteLine("Los multiplos de 3 del numero 1 al 100 son");
+                            Console.WriteLine("-----------------");
 
+                            for(num1 = 3; num1 <= 100; num1+=3)
+                            {
+                                Console.WriteLine("-" + num1);
                             }
                             break ;
+
+                        case 2:
+                            Console.WriteLine("-----------------");
+                            Console.WriteLine("Los numeros impares del numero 0 al 100 son");
+                            Console.WriteLine("-----------------");
+
+                            for (num1 = 1; num1 <= 100; num1 += 2)
+                            {
+                                Console.WriteLine("-" + num1);
+                            }
+
+                            break ;
+
+                        case 3:
+                            Console.WriteLine("-----------------");
+                            Console.WriteLine("Los numeros pares del numero 0 al 100 son");
+                            Console.WriteLine("-----------------");
+
+                            for (num1 = 2; num1 <= 100; num1 += 2)
+                            {
+                                Console.WriteLine("-" + num1);
+                            }
+
+                            break;
+
+                        case 4:
+                            Console.WriteLine("-----------------");
+                            Console.WriteLine("Los cuadrados del numero 1 al 30 son");
+                            Console.WriteLine("-----------------");
+
+                            for (num1 = 1; num1 <= 30; num1 ++)
+                            {
+                                Console.WriteLine(" El numero " + num1 + " al cuadrado es = " + Math.Pow(num1,2));
+                            }
+
+                            break;
+
+                        case 5:
+                            Console.WriteLine("-----------------");
+                            Console.WriteLine("Los cuadrados del numero 1 al 30 son");
+                            Console.WriteLine("-----------------");
+
+                            for (num1 = 1; num1 <= 30; num1++)
+                            {
+                                Console.WriteLine(" El numero " + num1 + " al cuadrado es = " + Math.Pow(num1, 2));
+                            }
+
+                            break;
+
                     }
 
 
